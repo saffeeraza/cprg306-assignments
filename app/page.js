@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 import Link from 'next/link';
 import StudentInfo from './StudentInfo';
@@ -11,9 +13,10 @@ export default function Home() {
       <StudentInfo />
       <Link href="/week2">Week 2</Link>
     <ul> 
-      <li> <Link href="/week3"> Week 3</Link>
-      </li>
+      <li> <Link href="/week3"> Week 3</Link> </li>
+      <li> <Link href="/week4"> Week 4</Link> </li>
     </ul>
+
     </div>
 
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
